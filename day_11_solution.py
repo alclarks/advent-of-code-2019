@@ -2,7 +2,7 @@ import intcode
 
 incs = [complex(0, 1), complex(1, 0), complex(0, -1), complex(-1, 0)]
 
-with open("day_11_input.txt") as f:
+with open("inputs/day_11_input.txt") as f:
     program = [int(x) for x in f.read().split(",")]
 
 def run_hull_painter(init_white_square=False):

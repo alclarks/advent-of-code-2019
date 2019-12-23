@@ -20,7 +20,7 @@ def path_seek(start, finish):
         parent = par_dict[parent]
     return len(set(path1) ^ set(path2)) - 2
 
-with open("day_06_input.txt") as f:
+with open("inputs/day_06_input.txt") as f:
     orbits = f.read().splitlines()
 
 child_dict = defaultdict(list)

@@ -1,7 +1,7 @@
 import numpy as np
 
 def read_file():
-    with open("day_16_input.txt") as f:
+    with open("inputs/day_16_input.txt") as f:
         return [int(x) for x in f.read().strip()]
 
 def get_pattern_matrix(i, j):

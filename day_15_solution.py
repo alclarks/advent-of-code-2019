@@ -1,7 +1,7 @@
 from collections import deque
 import intcode
 
-with open("day_15_input.txt") as f:
+with open("inputs/day_15_input.txt") as f:
     program = [int(x) for x in f.read().split(",")]
 
 MAPS = {complex(1, 0): 3, complex(0, 1): 1, complex(-1, 0): 4, complex(0, -1): 2}

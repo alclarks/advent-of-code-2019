@@ -9,7 +9,7 @@ def fuel_from_mass(mass):
         fuel = naive_fuel_from_mass(fuel)
     return sum
 
-with open("day_1_input.txt") as f:
+with open("inputs/day_01_input.txt") as f:
     masses = f.read().splitlines()
 
 # Part 1

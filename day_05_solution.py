@@ -1,6 +1,6 @@
 import intcode
 
-with open("day_05_input.txt") as f:
+with open("inputs/day_05_input.txt") as f:
     program = [int(x) for x in f.read().split(",")]
 
 part1 = intcode.Intcode(program, [1])

@@ -27,7 +27,7 @@ def point_info_from_path(path):
         corner = corner + (i + 1) * inc
     return step_info
 
-with open("day_3_input.txt") as f:
+with open("inputs/day_03_input.txt") as f:
     lines = f.read().splitlines()
     paths = [line.split(",") for line in lines]
 

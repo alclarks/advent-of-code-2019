@@ -2,7 +2,7 @@ width = 25
 height = 6
 res = width * height
 
-with open("day_08_input.txt") as f:
+with open("inputs/day_08_input.txt") as f:
     img = [int(x) for x in f.read().strip()]
 no_layers = int(len(img) / res)
 

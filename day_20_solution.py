@@ -6,7 +6,7 @@ maze_points = []
 portals = defaultdict(list)
 ADJS = [complex(1, 0), complex(-1, 0), complex(0, 1), complex(0, -1)]
 
-with open("day_20_input.txt") as f:
+with open("inputs/day_20_input.txt") as f:
     lines = [line.strip("\n") for line in f.readlines()]
 
 for i, line in enumerate(lines):

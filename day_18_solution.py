@@ -51,13 +51,13 @@ def bfs(keys, doors, start, graph):
                 to_visit.append(((neighbour, collected), depth+1))
 
 def part1():
-    keys, doors, starts, graph = parse_input("day_18_input_1.txt")
+    keys, doors, starts, graph = parse_input("inputs/day_18_input_1.txt")
     return bfs(keys, doors, starts[0], graph)
 
 def part2():
     total_steps = 0
     for quad in QUADRANTS:
-        quad_file = "day_18_input_2.{}.txt".format(quad)
+        quad_file = "inputs/day_18_input_2.{}.txt".format(quad)
         keys, doors, starts, graph = parse_input(quad_file)
         total_steps = total_steps + bfs(keys, doors, starts[0], graph)
     return total_steps

@@ -24,7 +24,7 @@ def self_compose(func1, n):
                              func1.p)
 
 def compose_input(size):
-    with open("day_22_input.txt") as f:
+    with open("inputs/day_22_input.txt") as f:
         shuffles = [x.strip() for x in f.readlines()]
     shuffle_func = ModularLinearFunc(1, 0, size)
     for shuffle in shuffles:

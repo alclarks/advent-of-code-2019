@@ -5,7 +5,7 @@ def run_driod(x, y):
     droid.run()
     return droid.outputs[0]
 
-with open("day_19_input.txt") as f:
+with open("inputs/day_19_input.txt") as f:
     program = [int(x) for x in f.read().split(",")]
 
 # Part 1

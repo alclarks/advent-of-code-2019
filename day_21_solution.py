@@ -1,6 +1,6 @@
 import intcode
 
-with open("day_21_input.txt") as f:
+with open("inputs/day_21_input.txt") as f:
     program = [int(x) for x in f.read().split(",")]
 
 def run_spring_droid(script):

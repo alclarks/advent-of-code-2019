@@ -2,7 +2,7 @@ import itertools
 
 import intcode
 
-with open("day_07_input.txt") as f:
+with open("inputs/day_07_input.txt") as f:
     program = [int(x) for x in f.read().split(",")]
 
 # Part 1

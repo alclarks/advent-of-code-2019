@@ -2,7 +2,7 @@ import intcode
 
 DIRS = [complex(1, 0), complex(-1, 0), complex(0, 1), complex(0, -1)]
 
-with open("day_17_input.txt") as f:
+with open("inputs/day_17_input.txt") as f:
     program = [int(x) for x in f.read().split(",")]
 
 # Part 1

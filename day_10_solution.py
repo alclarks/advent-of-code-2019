@@ -2,7 +2,7 @@ import cmath
 import math
 import collections
 
-with open("day_10_input.txt") as f:
+with open("inputs/day_10_input.txt") as f:
     info = f.read().splitlines()
 
 asteroids = []

@@ -21,7 +21,7 @@ def list_ingredients(reaction_dict):
     return list(itertools.chain(*[list(chem_set.keys()) for chem_set in list_of_dicts]))
 
 def find_req_ore(fuel):
-    reactions = parse_file("day_14_input.txt")
+    reactions = parse_file("inputs/day_14_input.txt")
     inventory = collections.defaultdict(int)
     inventory["FUEL"] = fuel  # We'll work backwards
     while list(inventory.keys()) != ["ORE"]:
